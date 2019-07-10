@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    left: calc((100% - 900px) / 2); 
+    top: calc((100% - 600px) / 2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around; 
+    
+}
+.memo{
+   height: 200px ;
+   width: 200px;
+   /* background-color: darkcyan; */
+}
+
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+
+.off{
+    background-color: white;
+}
+
+.hidden{
+    background-color: black;
+}
+/* Dodać klasy z poszczególnymi kolorami -
+do dwóch tych samych divów. Jeśli źle trafię to nie mogę odkryć 
+tego drugiego */
